@@ -72,7 +72,7 @@ export const useDeepLink = () => {
       targetUrl = bank.ios;
       
       const start = Date.now();
-      const timeout = setTimeout(() => {
+      setTimeout(() => {
         const elapsed = Date.now() - start;
         if (elapsed < 2500 && !document.hidden) {
              window.location.href = bank.web;

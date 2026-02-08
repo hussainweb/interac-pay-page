@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Copy, Check, Smartphone, CreditCard, ArrowRight, ExternalLink } from 'lucide-react';
 import { useClipboard } from './hooks/useClipboard';
 import { useDeepLink } from './hooks/useDeepLink';
